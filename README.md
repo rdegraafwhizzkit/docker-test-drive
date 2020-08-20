@@ -83,7 +83,7 @@ docker service create \
 --name=viz \
 dockersamples/visualizer
 ```
-Now browse to http://192.168.1.101:8080
+Use alexellis2/visualizer-arm when you run the manager node on an ARM-based cpu (like the Raspberry PI). Now browse to http://192.168.1.101:8080
 
 # Build and push an image to the docker hub
 Now build and push your image
